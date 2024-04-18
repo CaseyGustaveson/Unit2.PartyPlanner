@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Events</title>
-    <link rel="stylesheet" href="index.css" />
     <script defer src="index.js"></script>
-  </head>
-  <body style="background-color: beige;">
-    <h1 style="text-align: center;">Upcoming Events</h1>
+</head>
+
+<body style="background-color: beige;">
+
+    <h1 style="text-align: center;">Events</h1>
     <form style="text-align: center;" id="addEvent">
-      <label style="font-weight:bold">
-        Name of Event
-        <input type="text" name="name" style="height:30px" />
-      </label>
-      <label style="font-weight:bold">
-        Date of Event
-        <input type="date" name="date"style="height:30px" />
-      </label>
-      <label style="font-weight:bold">
-        Time of Event
-        <input type="time" name="time"style="height:30px" />
-      </label>
-      <label style="font-weight:bold">
-        Location of Event
-        <input type="text" name="location" style="height:30px"/>
-      </label><br><br>
-      <label style="font-weight:bold">Information</label><br>
-      <input type="text" name="information" style="height:75px"><br><br>
-      <button style=>Add Event</button>
+
+        <label style="font-weight:bold">
+            Name of Event
+            <input type="text" name="name" style="height:30px" />
+        </label>
+
+        <label style="font-weight:bold">
+            Date of Event
+            <input type="date" name="date" style="height:30px" />
+        </label>
+
+        <label style="font-weight:bold">
+            Time of Event
+            <input type="time" name="time" style="height:30px" />
+        </label>
+
+        <label style="font-weight:bold">
+            Location of Event
+            <input type="text" name="location" style="height:30px" />
+        </label><br><br>
+
+        <label style="font-weight:bold">Description</label><br>
+        <input type="text" name="description" style="height:75px"><br><br>
+        <button style=>Add Event</button>
     </form>
-    
-    <ul id="artists"></ul>
-    
-  </body>
+
+    <ul id="events"></ul>
+
+</body>
+
 </html>
